@@ -1,0 +1,26 @@
+# Ignora arquivos e pastas comuns para projetos Node.js
+node_modules/
+.env
+*.log
+.DS_Store
+# VSCode
+.vscode/
+# Arquivos temporários
+*.swp
+*.swo
+
+# Ignora arquivos e pastas comuns para projetos Python e Node.js
+__pycache__/
+*.pyc
+.env
+node_modules/
+*.log
+.DS_Store
+*.env
+# VSCode
+.vscode/
+# Arquivos temporários
+*.swp
+*.swo
+
+venv/
