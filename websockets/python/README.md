@@ -10,6 +10,10 @@ Este diretório contém um exemplo de servidor e cliente WebSocket em Python.
 ## Instalação
 
 ```bash
+source venv/bin/activate
+```
+
+```bash
 pip install websockets
 ```
 

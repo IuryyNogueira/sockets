@@ -7,12 +7,11 @@ const alfabeto = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 const availableletra = [...alfabeto];
 const clientletra = new Map(); // ws -> letra
 
-// Evento disparado quando um cliente se conecta
 wss.on("connection", function connection(ws, req) {
-  // Atribui uma letra disponível ao cliente
+  
   let id = availableletra.shift();
   if (!id) {
-    id = "?"; // Caso acabem as letras
+    id = "?"; 
   }
   clientletra.set(ws, id);
 
